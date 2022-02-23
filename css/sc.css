@@ -6625,9 +6625,7 @@ a.ttip {
     background-size: cover;
     height: 500px;
 }
-
-/*
-.slideout-wrapper:before{ 
+.slideout-wrapper:before {
     content: "";
     position: absolute;
     background: url(/images/user/images/new_year/top-ny-img.png) center repeat-x;
@@ -6638,7 +6636,6 @@ a.ttip {
     top: 47px;
     margin: 0 auto;
 }
-*/
 .text-wrap {
     position: relative;
 }
@@ -6666,7 +6663,7 @@ a.ttip {
 
 /*=== SLIDER BLOCK ===*/
 .slider_block {
-    background: url(/images/user/images/slider/slider-bg.jpg) no-repeat top center;
+    background: url(/pic/!!!!.png) no-repeat bottom center;
     background-size: cover;
 }
 .slider_text_wrapper {
