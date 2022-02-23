@@ -1,0 +1,463 @@
+<style type="text/css">.my_newFooter {
+    position: relative;
+    background: white url(/images/user/images/new_year/footer_new_bg.jpg) center;
+    width: 100%;
+    height: 223px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.santa_animated {
+    display: block;
+    position: absolute;
+    top: 76px;
+    right: -320px;
+    transform: translateX(0px);
+    animation-name: animate_santa;
+    animation-duration: 8.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes animate_santa {
+    from {
+        transform: translateX(0px)
+    }
+    25% {
+        transform: translateX(-700px)
+    }
+    50% {
+        transform: translateX(-2500px) translateY(-150px)
+    }
+    to {
+        transform: translateX(-2500px)
+    }
+}
+
+@-o-keyframes animate_santa {
+    from {
+        transform: translateX(0px)
+    }
+    25% {
+        transform: translateX(-700px)
+    }
+    50% {
+        transform: translateX(-2500px) translateY(-150px)
+    }
+    to {
+        transform: translateX(-2500px)
+    }
+}
+
+@-moz-keyframes animate_santa {
+    from {
+        transform: translateX(0px)
+    }
+    25% {
+        transform: translateX(-700px)
+    }
+    50% {
+        transform: translateX(-2500px) translateY(-150px)
+    }
+    to {
+        transform: translateX(-2500px)
+    }
+}
+
+@keyframes animate_santa {
+    from {
+        transform: translateX(0px)
+    }
+    25% {
+        transform: translateX(-700px)
+    }
+    50% {
+        transform: translateX(-2500px) translateY(-150px)
+    }
+    to {
+        transform: translateX(-2500px)
+    }
+}
+
+.my_newFooter:after {
+    content: "";
+    position: absolute;
+    background: url(/images/user/images/new_year/footer_tree.png) center;
+    width: 114px;
+    height: 185px;
+    top: 42px;
+    right: 67px;
+}
+
+.my_footer_img_block {
+    position: relative;
+    width: 100%;
+    margin-top: -98px;
+    z-index: -1;
+}
+
+.ny-year-wrap {
+    position: relative;
+    height: 474px;
+    background: url(/images/user/images/new_year/ny-bg3.jpg) center bottom no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/*.ny-snow-bg{
+    position: absolute;
+    background: url(/images/user/images/design/snow-elem.png) center repeat-x;
+    bottom: -70px;
+    left: 0;
+    width: 100%;
+    height: 166px;
+    z-index: 3;
+    background-size: cover;
+  }*/
+
+.santa-wrap {
+    position: absolute;
+    right: 110px;
+    bottom: 4px;
+    transform: translateX(0px);
+    animation-iteration-count: infinite;
+    animation-name: santa-anim;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    z-index: 2;
+}
+
+.santa-img {
+    position: relative;
+}
+
+@-webkit-keyframes santa-anim {
+    from {
+        transform: translateX(0px)
+    }
+    10% {
+        transform: translateX(-50px)
+    }
+    50% {
+        transform: translateX(-1920px)
+    }
+    to {
+        transform: translateX(-2500px)
+    }
+}
+
+@-o-keyframes animate_playn {
+    from {
+        transform: translateX(0px)
+    }
+    25% {
+        transform: translateX(200px)
+    }
+    50% {
+        transform: translateX(2500px) translateY(-250px)
+    }
+    to {
+        transform: translateX(-2500px)
+    }
+}
+
+@-moz-keyframes animate_playn {
+    from {
+        transform: translateX(0px)
+    }
+    25% {
+        transform: translateX(200px)
+    }
+    50% {
+        transform: translateX(2500px) translateY(-250px)
+    }
+    to {
+        transform: translateX(-2500px)
+    }
+}
+
+@keyframes animate_playnt {
+    from {
+        transform: translateX(0px)
+    }
+    25% {
+        transform: translateX(200px)
+    }
+    50% {
+        transform: translateX(2500px) translateY(-250px)
+    }
+    to {
+        transform: translateX(-2500px)
+    }
+}
+
+.ny-tree-wrap {
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+    z-index: 1;
+}
+
+.ny-play-wrap {
+    position: absolute;
+}
+
+.play1 {
+    position: absolute;
+    bottom: 87px;
+    left: 175px;
+    z-index: 1;
+}
+
+.play2 {
+    position: absolute;
+    bottom: 111px;
+    left: 124px;
+    z-index: 1;
+}
+
+.play3 {
+    position: absolute;
+    bottom: 193px;
+    left: 66px;
+    z-index: 1;
+}
+
+.play4 {
+    position: absolute;
+    bottom: 296px;
+    left: 88px;
+    z-index: 1;
+}
+
+.play5 {
+    position: absolute;
+    bottom: 144px;
+    left: 69px;
+    z-index: 1;
+}
+
+.play6 {
+    position: absolute;
+    bottom: 207px;
+    left: 164px;
+    z-index: 1;
+}
+
+.play7 {
+    position: absolute;
+    bottom: 257px;
+    left: 96px;
+    z-index: 1;
+}
+
+.play8 {
+    position: absolute;
+    bottom: 341px;
+    left: 138px;
+    z-index: 1;
+}
+
+.play9 {
+    position: absolute;
+    bottom: 324px;
+    left: 106px;
+    z-index: 1;
+}
+
+.play10 {
+    position: absolute;
+    bottom: 156px;
+    left: 172px;
+    z-index: 1;
+}
+
+.play11 {
+    position: absolute;
+    bottom: 86px;
+    left: 89px;
+    z-index: 1;
+}
+
+.play12 {
+    position: absolute;
+    bottom: 161px;
+    left: 118px;
+    z-index: 1;
+}
+
+.play13 {
+    position: absolute;
+    bottom: 359px;
+    left: 118px;
+    z-index: 1;
+}
+
+.play14 {
+    position: absolute;
+    bottom: 251px;
+    left: 156px;
+    z-index: 1;
+}
+
+.play15 {
+    position: absolute;
+    bottom: 168px;
+    left: 76px;
+    z-index: 1;
+}
+
+.play16 {
+    position: absolute;
+    bottom: 78px;
+    left: 131px;
+    z-index: 1;
+}
+
+.play17 {
+    position: absolute;
+    bottom: 56px;
+    left: 33px;
+    z-index: 1;
+}
+
+.play18 {
+    position: absolute;
+    bottom: 56px;
+    left: 200px;
+    z-index: 1;
+}
+
+.blesk-img {
+    position: absolute;
+    top: -33px;
+    left: -67px;
+    right: -43px;
+    z-index: 0;
+    animation: pulse-ny 2s linear infinite;
+}
+
+@keyframes pulse-ny {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.santa-gifts {
+    position: absolute;
+    top: 65px;
+    right: 38px;
+}
+
+.gifts-tree {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.santa-wrap.wow.animated {
+    webkit-animation-duration: 0s;
+    animation-duration: 0s;
+}
+
+.ny-snow-bg {
+    position: absolute;
+    right: 0;
+    bottom: -17px;
+    z-index: 3;
+    background: url(/images/user/images/new_year/show-bg.png) center;
+    width: 100%;
+    height: 100px;
+}
+
+
+/*========================================================================================================*/
+
+.my_sld_wrap {
+    position: relative;
+    background: url(/images/user/images/slider/my_sld_bg.jpg) center bottom;
+    background-size: cover;
+    display: none;
+}
+
+.auto_wrap {
+    position: relative;
+    overflow: hidden;
+    top: 60px;
+    z-index: 10;
+}
+
+.auto_in_block {
+    position: relative;
+}
+
+.auto_img_block {
+    position: relative;
+    display: inline-block;
+    animation: footer_anim 30s linear infinite;
+}
+
+.car_img2 {
+    position: absolute;
+    left: 196px;
+    top: 80px;
+    animation: my_sld_img_block 100s linear infinite;
+}
+
+.car_img3 {
+    position: absolute;
+    left: 354px;
+    top: 80px;
+    animation: my_sld_img_block 100s linear infinite;
+}
+
+@keyframes my_sld_img_block {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(10000deg);
+    }
+}
+
+@keyframes footer_anim {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(1920px);
+    }
+}
+
+.auto-img-text-block {
+    position: relative;
+}
+
+.auto-img-text {
+    background: red;
+    color: #fff;
+    padding: 8px;
+    position: absolute;
+    font-size: 28px;
+}
+
+.auto-img-text:before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    background: red;
+    height: 2px;
+    right: -60px;
+    top: 32px;
+    transform: rotate(15deg);
+}
